@@ -1,37 +1,47 @@
-# Automation Exercise
+# Automation Exercise  :computer: :mag_right:
 
-Proyecto de Pruebas Automatizadas con Serenity Screenplay y Cucumber
+Este proyecto es un ejemplo de automatización de pruebas utilizando Serenity Screenplay con Gradle. El objetivo de este proyecto es mostrar mis habilidades como QA Automation Engineer y mi capacidad para desarrollar pruebas automatizadas de calidad utilizando el enfoque de Screenplay.
 
-## Descripción
+## Características principales :star2:
 
-Este proyecto contiene una suite de pruebas automatizadas desarrolladas utilizando el patrón de diseño Screenplay de Serenity BDD y el lenguaje de especificación BDD (Behavior-Driven Development) de Cucumber. La automatización se realiza sobre una aplicación web utilizando el framework Serenity Screenplay.
+- Utiliza Serenity como herramienta principal para la automatización de pruebas.
+- Implementa el patrón de diseño Screenplay para escribir pruebas en un lenguaje más orientado a las acciones y el comportamiento.
+- Utiliza Gradle como gestor de dependencias y para ejecutar las pruebas de manera eficiente.
+- Genera informes detallados y visualmente atractivos de los resultados de las pruebas.
 
-La suite de pruebas está diseñada para validar los escenarios clave de la aplicación web y garantizar su correcto funcionamiento. Se han utilizado técnicas de Screenplay para crear una estructura modular, mantenible y reutilizable.
+## Requisitos previos :heavy_check_mark:
 
-## Características
+Asegúrate de tener instalados los siguientes componentes en tu entorno de desarrollo:
 
-- Implementación del patrón de diseño Screenplay de Serenity BDD para una mayor legibilidad y mantenibilidad del código.
-- Uso de Cucumber para escribir los escenarios de prueba utilizando un lenguaje natural y facilitar la colaboración entre equipos técnicos y no técnicos.
-- Implementación de actores, tareas (Tasks), preguntas (Questions) y pasos (Steps) de Serenity Screenplay para representar la interacción del usuario con la aplicación y las validaciones de estado.
-- Integración con el framework Serenity BDD para generar informes de prueba detallados y claros.
-- Utilización de patrones de diseño como Page Objects y Screenplay para estructurar y modularizar las pruebas automatizadas.
+- Java JDK 8 o superior
+- Gradle
+- Git
 
-## Instalación y Configuración
+## Configuración del proyecto :wrench:
 
-1. Clona el repositorio en tu máquina local: [https://github.com/Johoxtum/AutomationExcerseSerenityScreenplay.git](https://github.com/Johoxtum/AutomationExcerseSerenityScreenplay.git)
+1. Clona este repositorio en tu máquina local utilizando el siguiente comando:
 
-2. Asegúrate de tener las siguientes herramientas instaladas en tu entorno de desarrollo:
+```bash
+git clone https://github.com/Johoxtum/AutomationExcerseSerenityScreenplay.git
+```
 
-    - Java Development Kit (JDK)
-    - Gradle
+2. Abre el proyecto en tu entorno de desarrollo preferido (por ejemplo, IntelliJ IDEA o Eclipse).
 
-3. Abre el proyecto en tu IDE y asegúrate de que todas las dependencias de Gradle se descarguen correctamente.
+3. Configura las dependencias y configuraciones del proyecto en el archivo `build.gradle`.
 
-4. Ejecuta el siguiente comando para compilar y ejecutar las pruebas:
+4. Actualiza los Actores, Tareas y Preguntas en el proyecto de acuerdo a tus necesidades y la aplicación que estás probando.
+
+## Ejecución de las pruebas :arrow_forward:
+
+1. Desde la línea de comandos, dirígete al directorio raíz del proyecto.
+
+2. Ejecuta el siguiente comando para ejecutar las pruebas automatizadas:
+
 ```bash
 ./gradlew clean test
 ```
 
+3. Después de que se completen las pruebas, se generarán informes detallados en el directorio `target/site/serenity`.
 
 ## Estructura del Proyecto
 
@@ -56,6 +66,12 @@ src
 serenity.properties                       | General properties Serenity
 ```
 
-## Contacto
+## Contacto :email:
 
-Para cualquier consulta o pregunta, puedes contactarme a través de mi dirección de correo electrónico 📧 [Johoxtum@gmail.com](mailto:Johoxtum@gmail.com) y también puedes encontrarme en LinkedIn 💼 [Perfil de LinkedIn](https://www.linkedin.com/in/johoxtum-jimenez-463ba1211/) 😊
+Si tienes alguna pregunta o comentario sobre este proyecto, no dudes en contactarme:
+
+- Nombre: Johoxtum Jiménez
+- Email: [Johoxtum@gmail.com](mailto:Johoxtum@gmail.com)
+- LinkedIn: [Perfil de LinkedIn](https://www.linkedin.com/in/johoxtum-jimenez-463ba1211/)
+- 
+¡Gracias por tu interés en este proyecto de automatización QA con Serenity Screenplay!
