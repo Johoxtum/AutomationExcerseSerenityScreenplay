@@ -77,4 +77,5 @@ Si tienes alguna pregunta o comentario sobre este proyecto, no dudes en contacta
 - Nombre: Johoxtum Jiménez
 - Email: [Johoxtum@gmail.com](mailto:Johoxtum@gmail.com)
 - LinkedIn: [Perfil de LinkedIn](https://www.linkedin.com/in/johoxtum-jimenez-463ba1211/)
+
 ¡Gracias por tu interés en este proyecto de automatización QA con Serenity Screenplay!
