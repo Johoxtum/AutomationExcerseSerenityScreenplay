@@ -1,5 +1,9 @@
 # Automation Exercise  :computer: :mag_right:
 
+[![Serenity BDD](https://img.shields.io/badge/Serenity%20BDD-3.6.12-green)](https://serenity-bdd.info/)
+[![Cucumber](https://img.shields.io/badge/Cucumber-3.6.12-brightgreen)](https://cucumber.io/)
+[![Gradle](https://img.shields.io/badge/Gradle-7.1.1-blue)](https://gradle.org/)
+
 Este proyecto es un ejemplo de automatización de pruebas utilizando Serenity Screenplay con Gradle. El objetivo de este proyecto es mostrar mis habilidades como QA Automation Engineer y mi capacidad para desarrollar pruebas automatizadas de calidad utilizando el enfoque de Screenplay.
 
 ## Características principales :star2:
